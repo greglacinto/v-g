@@ -1,0 +1,19 @@
+#footer-section {
+    /* border-top: solid; */
+    padding-top: 0.1rem;
+    text-align: center;
+    margin: auto;
+    background-color: #82807F21;
+    color: #0A3015;
+    height: 7rem;
+}
+
+#footer-section .footer-div {
+    width: 30%;
+    margin: auto;
+}
+
+
+
+
+

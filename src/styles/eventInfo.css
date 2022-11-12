@@ -1,0 +1,29 @@
+#event-info-section  {
+    margin-top: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
+    justify-content: space-evenly;
+    width: 60%;
+    /* border: solid; */
+}
+
+/* #event-info-section div {
+    border: solid;
+} */
+
+#event-info-section p {
+    text-align: center;
+    color: #0A3015;
+    font-family: Alice;
+    /* border: solid; */
+}
+
+.vertical-line {
+    height: 100px;
+    background-color: black;
+    border: 0.1rem solid;
+    margin: auto;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+}
