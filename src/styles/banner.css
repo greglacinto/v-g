@@ -18,3 +18,7 @@ img {
     /* border: solid;
     min-height: 120px; */
 }
+
+#carousel-container {
+    border: solid;
+}

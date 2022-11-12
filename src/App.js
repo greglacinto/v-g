@@ -1,9 +1,11 @@
 import './App.css';
-import Banner from './components/banner';
+// import Banner from './components/banner';
 import EventInfo from './components/eventInfo';
 import Footer from './components/footer';
 import Header from './components/header';
 import NavBar from './components/navbar';
+import Banner2 from './components/banner2';
+
 
 
 function App() {
@@ -12,7 +14,8 @@ function App() {
       <div className='w-80'>
         <Header />
         <NavBar />
-        <Banner />
+        {/* <Banner /> */}
+        <Banner2 />
         <EventInfo />
       </div>
 
