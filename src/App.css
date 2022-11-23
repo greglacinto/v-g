@@ -8,3 +8,9 @@
   /* border-bottom: solid; */
   padding-bottom: 0rem;
 }
+
+@media screen and (max-width: 480px) {
+  .w-80 {
+    width: 100%;
+  }
+}

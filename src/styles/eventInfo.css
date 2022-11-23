@@ -27,3 +27,23 @@
     margin-left: 0.2rem;
     margin-right: 0.2rem;
 }
+
+.vertical-line-sm {
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    #event-info-section {
+      flex-direction: column;
+    }
+
+    .vertical-line {
+        display: none;
+    }
+    .vertical-line-sm{
+        display: block;
+        width: 80%;
+    }
+  }
+
+  

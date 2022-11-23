@@ -11,6 +11,7 @@ function EventInfo() {
 
             </div>
             <div className='vertical-line'></div>
+            <hr className='vertical-line-sm' />
             <div>
                 <p>Villa Park</p>
                 <p>Amuwo-Odofin</p>

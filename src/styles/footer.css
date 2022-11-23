@@ -1,6 +1,6 @@
 #footer-section {
     /* border-top: solid; */
-    padding-top: 0.1rem;
+    padding-top: 0.3rem;
     text-align: center;
     margin: auto;
     background-color: #82807F21;
@@ -9,8 +9,12 @@
 }
 
 #footer-section .footer-div {
-    width: 30%;
+    width: 100%;
     margin: auto;
+    border-top-style: solid;
+    border-top-width: thin;
+    border-top-color: #bab7b7;
+    padding-top: 0.5rem;
 }
 
 

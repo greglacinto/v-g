@@ -4,13 +4,16 @@ const removeBottomMargin = {
 }
 
 function Footer() {
+    const hrStyle = {
+        "width": "15%"
+    }
     return (
         <section id='footer-section'>
             <div className='footer-div'>
                 <p style={removeBottomMargin}>
                     Valerie & Gregory
                 </p>
-                <hr />
+                <hr style={hrStyle}/>
                 <p>26.11.11.2022</p>
             </div>
             
