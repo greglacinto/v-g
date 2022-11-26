@@ -7,7 +7,6 @@ import NavBar from './components/navbar';
 import Banner2 from './components/banner2';
 
 
-
 function App() {
   return (
     <div className="App">

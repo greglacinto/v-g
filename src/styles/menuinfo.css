@@ -1,0 +1,15 @@
+.menu-container{
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+}
+
+#menu-img {
+    height: auto; 
+    max-width: 100%;
+   
+}
+
+Link {
+    text-decoration: none;
+}
