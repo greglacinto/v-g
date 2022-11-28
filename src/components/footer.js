@@ -14,7 +14,7 @@ function Footer() {
                     Valerie & Gregory
                 </p>
                 <hr style={hrStyle}/>
-                <p>26.11.11.2022</p>
+                <p>26.12.22.2022</p>
             </div>
             
         </section>
