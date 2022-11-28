@@ -10,11 +10,11 @@ import banner6 from "./assets/banner16.jpg";
 let slides1 = [
    
     <img  src={banner1} alt="1" />,
-    <img  src={banner2} alt="1" />,
-    <img  src={banner3} alt="1" />,
-    <img  src={banner4} alt="1" />,
-    <img  src={banner5} alt="1" />,
-    <img  src={banner6} alt="1" />,
+    <img  src={banner2} alt="2" />,
+    <img  src={banner3} alt="3" />,
+    <img  src={banner4} alt="4" />,
+    <img  src={banner5} alt="5" />,
+    <img  src={banner6} alt="6" />,
 ];
 
 export default slides1

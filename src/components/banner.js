@@ -1,23 +1,17 @@
-import '../styles/banner.css';
-import bannerImg from '../assets/banner1.jpg';
+//dependency for our carousel -- npm i 3d-react-carousal
+import {Carousel} from '3d-react-carousal';
 
-import React from "react";
+import '../styles/banner2.css';
 
+import slides from '../images';
 
-
-function Banner() {
+function Banner2() {
 
     return (
-        <section id='banner-section'>
-                <div className="img-div">
-                    <img src={bannerImg} alt='mr and mrs Odiase'/>
-                </div>
-        </section>
-       
+        <div id='carousel-container'>
+            <Carousel slides={slides} autoplay={true} interval={5000} arrows={false}/>
+        </div>
     );
 }
 
-export default Banner;
-
-
-
+export default Banner2;
