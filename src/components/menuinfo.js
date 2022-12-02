@@ -1,5 +1,5 @@
 import '../styles/menuinfo.css';
-import weddingMenu from "../assets/weddingmenu2.png";
+import weddingMenu from "../assets/weddingmenu3.png";
 
 function MenuInfo() {
     return (

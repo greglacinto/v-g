@@ -1,5 +1,4 @@
 import '../styles/header.css';
-import { Timer } from './timer';
 
 function Header() {
     return (
