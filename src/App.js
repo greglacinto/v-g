@@ -5,6 +5,7 @@ import Footer from './components/footer';
 import Header from './components/header';
 import NavBar from './components/navbar';
 import Banner from './components/banner';
+import { Timer } from './components/timer';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <div className='w-80'>
         <Header />
         <NavBar />
+        <Timer deadline="December, 26, 2022" />
         <Banner />
         <EventInfo />
       </div>

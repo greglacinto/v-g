@@ -9,6 +9,10 @@
   padding-bottom: 0rem;
 }
 
+.mb-5 {
+  margin-bottom: 5px;
+}
+
 @media screen and (max-width: 769px) {
   .w-80 {
     width: 90%;

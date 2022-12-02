@@ -1,4 +1,5 @@
 import '../styles/header.css';
+import { Timer } from './timer';
 
 function Header() {
     return (
@@ -10,6 +11,7 @@ function Header() {
             <p>
                 December 26, 2022 Lagos, NG
             </p>
+
         </header>
     );
 }

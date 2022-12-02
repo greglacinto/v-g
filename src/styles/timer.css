@@ -1,0 +1,55 @@
+.timer {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.timer p{
+    color: #FF6600;
+}
+#countdown-text {
+    text-align: center;
+}
+
+.box {
+    border-right: solid 0.5px rgba(12, 12, 12, 0.2);
+    font-weight: 3rem;
+    padding: 10px;
+}
+
+.col-4 {
+    width: 25%;
+    float: left;
+}
+
+.col-4:last-child .box {
+    border-right-color: transparent;
+}
+
+.box p {
+    font-size: calc(16px + 2vmin);
+    margin: 0;
+}
+  
+.text {
+font-size: 14px;
+}
+
+#countdown-text {
+    color: #0F5122;
+    font: 1.5rem bolder;
+}
+
+@media screen and (min-width: 769px) {
+    .timer {
+        width: 50%;
+    }
+
+    #countdown-text {
+        margin-top: 4rem;
+        font: 4rem bolder;
+    }
+}
