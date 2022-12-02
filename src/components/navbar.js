@@ -15,12 +15,12 @@ function NavBar() {
             <ul className={isClicked ? 
             "#nav-links active-m" : "#nav-links inactive-m"} 
             >
-                <Link to={`/`}
+                <Link to={`/app`}
                 style={{ textDecoration: 'none' }}>
                     <li>Home</li>
                 </Link>
                 <li>Music Requests</li>
-                <Link to={`/menu`} 
+                <Link to={`/`} 
                 style={{ textDecoration: 'none' }}>
                     <li>Menu</li>
                 </Link>
