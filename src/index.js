@@ -12,11 +12,11 @@ import {
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Menu />,
+    element: <App />,
   },
   {
-    path: "/app",
-    element: <App />,
+    path: "/menu",
+    element: <Menu />,
   },
 ]);
 
