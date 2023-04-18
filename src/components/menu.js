@@ -8,10 +8,10 @@ import MenuInfo from './menuinfo';
 
 function Menu() {
     return (
-        <div className='w-80'>
+        <div className='w-60'>
             <Header />
             <NavBar />
-            <Timer deadline="December, 26, 2022" />
+            <Timer deadline="December, 26, 2023" />
             <MenuInfo />
         </div>
     )

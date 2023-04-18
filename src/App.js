@@ -14,7 +14,7 @@ function App() {
       <div className='w-80'>
         <Header />
         <NavBar />
-        <Timer deadline="December, 26, 2022" />
+        <Timer deadline="December, 26, 2023" />
         <Banner />
         <EventInfo />
       </div>
