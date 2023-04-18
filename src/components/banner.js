@@ -8,7 +8,9 @@ import slides from '../images';
 function Banner2() {
 
     return (
-        <div id='carousel-container'>
+        <div 
+          id='carousel-container'
+        >
             <Carousel slides={slides} autoplay={true} interval={5000} arrows={false}/>
         </div>
     );

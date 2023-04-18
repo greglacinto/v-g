@@ -18,7 +18,7 @@ export const Timer = ({ deadline = new Date().toString() }) => {
         );
 
         return () => clearInterval(interval);
-    }, []);
+    }, );
 
     return (
         <div className="mb-5">

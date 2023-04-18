@@ -49,7 +49,7 @@ font-size: 14px;
     }
 
     #countdown-text {
-        margin-top: 4rem;
+        margin-top: -1rem;
         font: 4rem bolder;
     }
 }
