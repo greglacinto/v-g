@@ -11,7 +11,7 @@ function Banner2() {
         <div 
           id='carousel-container'
         >
-            <Carousel slides={slides} autoplay={true} interval={5000} arrows={false}/>
+            <Carousel slides={slides} autoplay={true} interval={4000} arrows={false}/>
         </div>
     );
 }
